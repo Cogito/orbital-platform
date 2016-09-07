@@ -1,0 +1,11 @@
+{
+  "name": "orbital-platform",
+  "version": "0.1.0",
+  "factorio_version": "0.14",
+  "dependencies": ["base >= 0.14.0"],
+  "title": "Orbital Platform",
+  "author": "Cogito",
+  "contact": "",
+  "homepage": "",
+  "description": "Build in space with an orbital factory"
+}
