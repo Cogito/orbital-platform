@@ -1,10 +1,10 @@
 data:extend({
   {
     type = "car",
-    name = "car",
+    name = "orbital-capsule",
     icon = "__base__/graphics/icons/car.png",
     flags = {"pushable", "placeable-neutral", "player-creation", "placeable-off-grid"},
-    minable = {mining_time = 1, result = "car"},
+    minable = {mining_time = 1, result = "orbital-capsule"},
     max_health = 200,
     corpse = "medium-remnants",
     dying_explosion = "medium-explosion",

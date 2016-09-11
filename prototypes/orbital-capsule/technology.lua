@@ -1,26 +1,28 @@
 data:extend({
   {
     type = "technology",
-    name = "automobilism",
-    icon = "__base__/graphics/technology/automobilism.png",
+    name = "orbital-capsule",
+    icon = "__base__/graphics/technology/rocket-silo.png",
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "car"
+        recipe = "orbital-capsule"
       },
     },
-    prerequisites = {"logistics-2", "engine"},
+    prerequisites = {"rocket-silo"},
     unit =
     {
-      count = 100,
+      count = 500,
       ingredients =
       {
-        {"science-pack-1", 2},
-        {"science-pack-2", 1}
+        {"alien-science-pack", 1},
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+        {"science-pack-3", 1}
       },
-      time = 20
+      time = 60
     },
-    order = "e-b"
+    order = "k-b"
   }
 })
